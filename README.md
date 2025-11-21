@@ -28,6 +28,7 @@ o	Tomar una primera foto en el punto de referencia (suelo). Esta imagen debe ten
 o	Continuar tomando las demás fotos a diferentes alturas o posiciones.
 3.	Formato de archivo:
 o	Guardar las imágenes en formato RAW (.DNG) para conservar metadatos completos.
+![Captura de pantalla](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/a3d0347772fd488974b06191f69bbea946477c28/carpetaejemplo.jpg)
 ________________________________________
 ## 4. Estructura de archivos
 Colocar todos los archivos .DNG y el script generar_points.py en una misma carpeta:
