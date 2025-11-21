@@ -133,7 +133,7 @@ Problema	Causa	Solución
 ________________________________________
 ## 10. Créditos y mantenimiento
 
-• Desarrollado por el equipo de ingeniería de Basdonax AI, especializado en soluciones de georreferenciación y sistemas RAG estructurados.
+• Desarrollado por el equipo de ingeniería de Basdonax AI, especializado en soluciones de georreferenciación y sistemas RAG estructurados. $ 0.49 en tokens
 
 • Autor técnico: Alejandro Soto Barquero Versión: 1.0 — Noviembre 2025.
 
