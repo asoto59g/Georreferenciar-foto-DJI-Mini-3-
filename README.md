@@ -86,9 +86,11 @@ Tipo	Descripción
 resumen_calculos.csv	Tabla con coordenadas, alturas y dimensiones calculadas.
 
 Ejemplo de resumen_calculos.csv:
-imagen	latitud	longitud	altitud_m	altitud_relativa_m	x_crtm05	y_crtm05	ancho_m	alto_m	dx_m	dy_m
-DJI_001.JPG	9.9345	-84.0912	120.5	0.0	500000.123	1100000.456	0.0	0.0	0.0	0.0
-DJI_002.JPG	9.9346	-84.0913	130.8	10.3	500010.789	1100010.234	18.5	15.2	9.25	7.6
+imagen	latitud	longitud	altitud_m	altitud_relativa_m	x_crtm05	y_crtm05	ancho_m	alto_m
+DJI_0001.jpg	9.866127527796433	-83.93968169	1411.385	0	506615.289	1090939.049	1.321	0.991
+DJI_0014.jpg	9.866139500039429	-83.93969297	1910.679	499.294	506614.052	1090940.373	659.699	494.774
+<img width="718" height="61" alt="image" src="https://github.com/user-attachments/assets/4dea7824-47e1-4794-96d0-d69510a4cac2" />
+
 
 ![Captura de pantalla](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/bfd3d37ede065de1876cabbd650bbb76a66d754a/ejecutado.jpg)
 ________________________________________
