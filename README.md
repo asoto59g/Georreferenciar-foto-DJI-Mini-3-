@@ -38,7 +38,7 @@ ________________________________________
 ## 5. Ejecución del script
 1.	Abrir una terminal en la carpeta del proyecto.
 2.	Ejecutar:
-python generar_points.py
+python georefraw.py
 3.	El script realizará automáticamente:
 o	Conversión de .DNG → .JPG (máxima calidad).
 o	Copia de metadatos GPS con exiftool.
