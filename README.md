@@ -77,6 +77,8 @@ o	Método de transformación: Polinomial 1 o Helmert.
 o	Resampling: Bilineal o Cúbico.
 8.	Guardar el raster georreferenciado.
 ![Captura de pantalla](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/5723a0837717304a04bd9ef63a9139bd404ad1a2/gcp.jpg)
+
+![Captura de pantalla](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/ce13a4700370aacde91091de0f278e40b2776f36/georeferenciador.jpg)
 ________________________________________
 ## 8. Validación de resultados
 •	Revisar el archivo resumen_calculos.csv para verificar:
