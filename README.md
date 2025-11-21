@@ -49,6 +49,7 @@ o	Copia de metadatos GPS con exiftool.
 o	Cálculo de altura relativa (usando la foto 001 como referencia).
 o	Generación de archivos .points (para QGIS).
 o	Creación del archivo resumen_calculos.csv con todos los datos.
+![Captura de pantalla](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/8b89e2bcf076a030578b21a05d682183da7b2681/dos.jpg)
 ________________________________________
 ## 6. Archivos generados
 Tipo	Descripción
