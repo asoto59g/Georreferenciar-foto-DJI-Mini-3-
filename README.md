@@ -27,25 +27,25 @@ ________________________________________
 ## 3. Captura de imágenes con el dron
 ### 1.	Configuración del vuelo:
 
-o	Activar el registro de coordenadas GPS en la cámara.
+•	Activar el registro de coordenadas GPS en la cámara.
 
-o	Mantener la cámara en modo nadiral (vertical).
+•	Mantener la cámara en modo nadiral (vertical).
 
 
-o	Configurar la resolución máxima (8064×6048 px). Formato DNG 48MP
+•	Configurar la resolución máxima (8064×6048 px). Formato DNG 48MP
 
-o	Desactivar filtros automáticos de exposición o HDR.
+•	Desactivar filtros automáticos de exposición o HDR.
 
 ### 2.	Secuencia de captura:
 
-o	Tomar una primera foto en el punto de referencia (suelo). Esta imagen debe tener en su nombre el sufijo 001 (por ejemplo, DJI_001.DNG).
+•	Tomar una primera foto en el punto de referencia (suelo). Esta imagen debe tener en su nombre el sufijo 001 (por ejemplo, DJI_001.DNG).
 
-o	Continuar tomando las demás fotos a diferentes alturas o posiciones. Orientar dron al NORTE con pantallas de navegacion.
+•	Continuar tomando las demás fotos a diferentes alturas o posiciones. Orientar dron al NORTE con pantallas de navegacion.
 Esto con el fin que la foto quede orientada en georreferenciacion, en formato RAW el disparo de la camara es tardado, tener paciencia.
 
 ### 3.	Formato de archivo:
 
-o	Guardar las imágenes en formato RAW (.DNG) para conservar metadatos completos.
+•	Guardar las imágenes en formato RAW (.DNG) para conservar metadatos completos.
 ![Captura de pantalla](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/a3d0347772fd488974b06191f69bbea946477c28/carpetaejemplo.jpg)
 ________________________________________
 ## 4. Estructura de archivos
@@ -64,15 +64,15 @@ ________________________________________
 python georefraw.py
 ### 3.	El script realizará automáticamente:
 
-o	Conversión de .DNG → .JPG (máxima calidad).
+•	Conversión de .DNG → .JPG (máxima calidad).
 
-o	Copia de metadatos GPS con exiftool.
+•	Copia de metadatos GPS con exiftool.
 
-o	Cálculo de altura relativa (usando la foto 001 como referencia).
+•	Cálculo de altura relativa (usando la foto 001 como referencia).
 
-o	Generación de archivos .points (para QGIS).
+•	Generación de archivos .points (para QGIS).
 
-o	Creación del archivo resumen_calculos.csv con todos los datos.
+•	Creación del archivo resumen_calculos.csv con todos los datos.
 ![Captura de pantalla](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/8b89e2bcf076a030578b21a05d682183da7b2681/dos.jpg)
 ________________________________________
 ## 6. Archivos generados
@@ -96,14 +96,14 @@ ________________________________________
 ### 2.	Ir a Raster → Georreferenciador.
 ### 3.	Cargar la imagen .jpg correspondiente.
 ### 4.	En el menú del georreferenciador, seleccionar:
-o	Archivo → Cargar puntos de control desde archivo...
-o	Elegir el archivo .points generado por el script.
+•	Archivo → Cargar puntos de control desde archivo...
+•	Elegir el archivo .points generado por el script.
 ### 5.	Verificar que los puntos se carguen correctamente.
 ### 6.	Configurar el sistema de referencia:
-o	CRTM05 (EPSG:8908) para Costa Rica.
+•	CRTM05 (EPSG:8908) para Costa Rica.
 ### 7.	Ejecutar la georreferenciación:
-o	Método de transformación: Polinomial 1 o Helmert.
-o	Resampling: Bilineal o Cúbico.
+•	Método de transformación: Polinomial 1 o Helmert.
+•	Resampling: Bilineal o Cúbico.
 ### 8.	Guardar el raster georreferenciado.
 ![Captura de pantalla](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/5723a0837717304a04bd9ef63a9139bd404ad1a2/gcp.jpg)
 
@@ -111,24 +111,24 @@ o	Resampling: Bilineal o Cúbico.
 ________________________________________
 ## 8. Validación de resultados
 
-o	Revisar el archivo resumen_calculos.csv para verificar:
+•	Revisar el archivo resumen_calculos.csv para verificar:
 
-o	Alturas relativas correctas.
+•	Alturas relativas correctas.
 
-o	Dimensiones del terreno (ancho_m, alto_m).
+•	Dimensiones del terreno (ancho_m, alto_m).
 
-o	Coordenadas proyectadas (x_crtm05, y_crtm05).
+•	Coordenadas proyectadas (x_crtm05, y_crtm05).
 
-o	En QGIS, comprobar que las imágenes se alineen correctamente con la base cartográfica.
+•	En QGIS, comprobar que las imágenes se alineen correctamente con la base cartográfica.
 ________________________________________
 ## 9. Solución de problemas
 Problema	Causa	Solución
 
-PermissionError: resumen_calculos.csv	Archivo abierto en Excel	Cerrar el archivo o dejar que el script cree una nueva versión (resumen_calculos_1.csv).
+• PermissionError: resumen_calculos.csv	Archivo abierto en Excel	Cerrar el archivo o dejar que el script cree una nueva versión (resumen_calculos_1.csv).
 
-KeyError: 'GPS GPSLatitude'	Falta de metadatos GPS	Asegurarse de que el dron tenga GPS activo y que exiftool copie los metadatos.
+• KeyError: 'GPS GPSLatitude'	Falta de metadatos GPS	Asegurarse de que el dron tenga GPS activo y que exiftool copie los metadatos.
 
-Imágenes desplazadas en QGIS	Altura de referencia incorrecta	Verificar que la foto 001 sea la tomada en el suelo.
+• Imágenes desplazadas en QGIS	Altura de referencia incorrecta	Verificar que la foto 001 sea la tomada en el suelo.
 ________________________________________
 ## 10. Créditos y mantenimiento
 Desarrollado por el equipo de ingeniería de Basdonax AI, especializado en soluciones de georreferenciación y sistemas RAG estructurados.
