@@ -77,6 +77,7 @@ o	Creación del archivo resumen_calculos.csv con todos los datos.
 ________________________________________
 ## 6. Archivos generados
 Tipo	Descripción
+
 .jpg	Imagen convertida desde el archivo RAW.
 
 .points	Archivo de puntos de control para QGIS.
@@ -91,19 +92,19 @@ DJI_002.JPG	9.9346	-84.0913	130.8	10.3	500010.789	1100010.234	18.5	15.2	9.25	7.6
 ![Captura de pantalla](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/bfd3d37ede065de1876cabbd650bbb76a66d754a/ejecutado.jpg)
 ________________________________________
 ## 7. Carga en QGIS
-1.	Abrir QGIS.
-2.	Ir a Raster → Georreferenciador.
-3.	Cargar la imagen .jpg correspondiente.
-4.	En el menú del georreferenciador, seleccionar:
+### 1.	Abrir QGIS.
+### 2.	Ir a Raster → Georreferenciador.
+### 3.	Cargar la imagen .jpg correspondiente.
+### 4.	En el menú del georreferenciador, seleccionar:
 o	Archivo → Cargar puntos de control desde archivo...
 o	Elegir el archivo .points generado por el script.
-5.	Verificar que los puntos se carguen correctamente.
-6.	Configurar el sistema de referencia:
+### 5.	Verificar que los puntos se carguen correctamente.
+### 6.	Configurar el sistema de referencia:
 o	CRTM05 (EPSG:8908) para Costa Rica.
-7.	Ejecutar la georreferenciación:
+### 7.	Ejecutar la georreferenciación:
 o	Método de transformación: Polinomial 1 o Helmert.
 o	Resampling: Bilineal o Cúbico.
-8.	Guardar el raster georreferenciado.
+### 8.	Guardar el raster georreferenciado.
 ![Captura de pantalla](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/5723a0837717304a04bd9ef63a9139bd404ad1a2/gcp.jpg)
 
 ![Captura de pantalla](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/ce13a4700370aacde91091de0f278e40b2776f36/georeferenciador.jpg)
