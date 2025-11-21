@@ -86,9 +86,7 @@ Tipo	Descripción
 resumen_calculos.csv	Tabla con coordenadas, alturas y dimensiones calculadas.
 
 Ejemplo de resumen_calculos.csv:
-imagen	latitud	longitud	altitud_m	altitud_relativa_m	x_crtm05	y_crtm05	ancho_m	alto_m
-DJI_0001.jpg	9.866127527796433	-83.93968169	1411.385	0	506615.289	1090939.049	1.321	0.991
-DJI_0014.jpg	9.866139500039429	-83.93969297	1910.679	499.294	506614.052	1090940.373	659.699	494.774
+
 <img width="718" height="61" alt="image" src="https://github.com/user-attachments/assets/4dea7824-47e1-4794-96d0-d69510a4cac2" />
 
 
