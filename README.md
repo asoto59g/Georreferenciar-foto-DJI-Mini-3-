@@ -1,5 +1,5 @@
 ![Captura de pantalla](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/f3d3057008e8e36ec96cde78cc7ac49368dee477/qgis.jpg)
-# Georreferenciar foto DJI Mini 3
+# Georreferenciar foto DJI Mini 3 a 48 MP
 Georreferenciación de fotos de DJI Mini 3 con metadatos gps de exif en Qgis. Es necesario solo las coordenadas del centroide de la foto para generar la georreferenciacion aproximada con un script de Python
 
 Archivos de ejemplo en la siguiente carpeta [Carpeta ejemplo](https://drive.google.com/drive/folders/1V3cBZyV1fmi-PAEcXbXMzmQ8Y6Ll3bVL?usp=drive_link)
@@ -31,7 +31,8 @@ o	Activar el registro de coordenadas GPS en la cámara.
 
 o	Mantener la cámara en modo nadiral (vertical).
 
-o	Configurar la resolución máxima (8064×6048 px).
+
+o	Configurar la resolución máxima (8064×6048 px). Formato DNG 48MP
 
 o	Desactivar filtros automáticos de exposición o HDR.
 
@@ -39,7 +40,8 @@ o	Desactivar filtros automáticos de exposición o HDR.
 
 o	Tomar una primera foto en el punto de referencia (suelo). Esta imagen debe tener en su nombre el sufijo 001 (por ejemplo, DJI_001.DNG).
 
-o	Continuar tomando las demás fotos a diferentes alturas o posiciones.
+o	Continuar tomando las demás fotos a diferentes alturas o posiciones. Orientar dron al NORTE con pantallas de navegacion.
+Esto con el fin que la foto quede orientada en georreferenciacion, en formato RAW el disparo de la camara es tardado, tener paciencia.
 
 3.	Formato de archivo:
 
