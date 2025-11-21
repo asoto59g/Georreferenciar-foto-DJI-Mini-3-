@@ -89,7 +89,6 @@ Ejemplo de resumen_calculos.csv:
 
 <img width="718" height="61" alt="image" src="https://github.com/user-attachments/assets/4dea7824-47e1-4794-96d0-d69510a4cac2" />
 
-
 ![Captura de pantalla](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/bfd3d37ede065de1876cabbd650bbb76a66d754a/ejecutado.jpg)
 ________________________________________
 ## 7. Carga en QGIS
