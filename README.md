@@ -26,14 +26,23 @@ pip install rawpy pillow exifread pyproj numpy
 ________________________________________
 ## 3. Captura de imágenes con el dron
 1.	Configuración del vuelo:
+
 o	Activar el registro de coordenadas GPS en la cámara.
+
 o	Mantener la cámara en modo nadiral (vertical).
+
 o	Configurar la resolución máxima (8064×6048 px).
+
 o	Desactivar filtros automáticos de exposición o HDR.
+
 2.	Secuencia de captura:
+
 o	Tomar una primera foto en el punto de referencia (suelo). Esta imagen debe tener en su nombre el sufijo 001 (por ejemplo, DJI_001.DNG).
+
 o	Continuar tomando las demás fotos a diferentes alturas o posiciones.
+
 3.	Formato de archivo:
+
 o	Guardar las imágenes en formato RAW (.DNG) para conservar metadatos completos.
 ![Captura de pantalla](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/a3d0347772fd488974b06191f69bbea946477c28/carpetaejemplo.jpg)
 ________________________________________
@@ -51,10 +60,15 @@ ________________________________________
 2.	Ejecutar:
 python georefraw.py
 3.	El script realizará automáticamente:
+
 o	Conversión de .DNG → .JPG (máxima calidad).
+
 o	Copia de metadatos GPS con exiftool.
+
 o	Cálculo de altura relativa (usando la foto 001 como referencia).
+
 o	Generación de archivos .points (para QGIS).
+
 o	Creación del archivo resumen_calculos.csv con todos los datos.
 ![Captura de pantalla](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/8b89e2bcf076a030578b21a05d682183da7b2681/dos.jpg)
 ________________________________________
