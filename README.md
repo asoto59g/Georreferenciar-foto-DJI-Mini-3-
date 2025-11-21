@@ -1,4 +1,4 @@
-![Video]
+![Video](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/b0cb644011f8974c098480401b4789ac04b20fc8/Video.mp4)
 
 ![Captura de pantalla](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/f3d3057008e8e36ec96cde78cc7ac49368dee477/qgis.jpg)
 # Georreferenciar foto DJI Mini 3 a 48 MP
