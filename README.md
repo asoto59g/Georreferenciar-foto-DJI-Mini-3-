@@ -1,4 +1,4 @@
-
+<video src="[https://photos.app.goo.gl/uBUL1rc3cVvef4Rv6]" width="320" height="240" controls></video>
 ![Captura de pantalla](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/f3d3057008e8e36ec96cde78cc7ac49368dee477/qgis.jpg)
 # Georreferenciar foto DJI Mini 3 a 48 MP
 Georreferenciación de fotos de DJI Mini 3 con metadatos gps de exif en Qgis. Es necesario solo las coordenadas del centroide de la foto para generar la georreferenciacion aproximada con un script de Python
