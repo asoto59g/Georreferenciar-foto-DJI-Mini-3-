@@ -1,5 +1,5 @@
 <video controls width="600">
-    <source src="https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/1e54a4c10cb0aa1fd13d14f8ddabeeb7a5ea1501/Video.mp4" type="video/mp4">
+    <source src="Video.mp4" type="video/mp4">
     Tu navegador no soporta la etiqueta de video.
 </video>
 
