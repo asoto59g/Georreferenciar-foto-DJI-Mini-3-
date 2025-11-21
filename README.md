@@ -50,6 +50,7 @@ o	Guardar las imágenes en formato RAW (.DNG) para conservar metadatos completos
 ________________________________________
 ## 4. Estructura de archivos
 Colocar todos los archivos .DNG y el script generar_points.py en una misma carpeta:
+
 📂 Proyecto_Georreferenciacion
  ├── georefraw.py
  ├── DJI_001.DNG
