@@ -60,6 +60,7 @@ Ejemplo de resumen_calculos.csv:
 imagen	latitud	longitud	altitud_m	altitud_relativa_m	x_crtm05	y_crtm05	ancho_m	alto_m	dx_m	dy_m
 DJI_001.JPG	9.9345	-84.0912	120.5	0.0	500000.123	1100000.456	0.0	0.0	0.0	0.0
 DJI_002.JPG	9.9346	-84.0913	130.8	10.3	500010.789	1100010.234	18.5	15.2	9.25	7.6
+![Captura de pantalla](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/bfd3d37ede065de1876cabbd650bbb76a66d754a/ejecutado.jpg)
 ________________________________________
 ## 7. Carga en QGIS
 1.	Abrir QGIS.
