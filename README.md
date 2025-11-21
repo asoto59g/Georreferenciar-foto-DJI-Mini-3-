@@ -111,7 +111,7 @@ o	Resampling: Bilineal o Cúbico.
 ________________________________________
 ## 8. Validación de resultados
 
-•	Revisar el archivo resumen_calculos.csv para verificar:
+o	Revisar el archivo resumen_calculos.csv para verificar:
 
 o	Alturas relativas correctas.
 
@@ -119,12 +119,15 @@ o	Dimensiones del terreno (ancho_m, alto_m).
 
 o	Coordenadas proyectadas (x_crtm05, y_crtm05).
 
-•	En QGIS, comprobar que las imágenes se alineen correctamente con la base cartográfica.
+o	En QGIS, comprobar que las imágenes se alineen correctamente con la base cartográfica.
 ________________________________________
 ## 9. Solución de problemas
 Problema	Causa	Solución
+
 PermissionError: resumen_calculos.csv	Archivo abierto en Excel	Cerrar el archivo o dejar que el script cree una nueva versión (resumen_calculos_1.csv).
+
 KeyError: 'GPS GPSLatitude'	Falta de metadatos GPS	Asegurarse de que el dron tenga GPS activo y que exiftool copie los metadatos.
+
 Imágenes desplazadas en QGIS	Altura de referencia incorrecta	Verificar que la foto 001 sea la tomada en el suelo.
 ________________________________________
 ## 10. Créditos y mantenimiento
