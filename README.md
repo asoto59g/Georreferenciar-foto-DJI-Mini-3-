@@ -1,7 +1,4 @@
-<video controls width="600">
-    <source src="Video.mp4" type="video/mp4">
-    Tu navegador no soporta la etiqueta de video.
-</video>
+![Video]
 
 ![Captura de pantalla](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/f3d3057008e8e36ec96cde78cc7ac49368dee477/qgis.jpg)
 # Georreferenciar foto DJI Mini 3 a 48 MP
