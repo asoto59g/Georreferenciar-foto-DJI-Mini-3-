@@ -13,7 +13,7 @@ Hardware
 Software
 •	Python 3.9 o superior
 •	QGIS 3.22+
-•	ExifTool (para copiar metadatos GPS)
+•	ExifTool (para copiar metadatos GPS) [Pagina instalacion](https://exiftool.org/install.html)
 •	Librerías de Python:
 pip install rawpy pillow exifread pyproj numpy
 ________________________________________
