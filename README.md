@@ -7,13 +7,13 @@ Archivos de ejemplo en la siguiente carpeta [Carpeta ejemplo](https://drive.goog
 Este proyecto automatiza la generación de archivos de puntos de control (.points) y un resumen de cálculos (resumen_calculos.csv) a partir de fotografías tomadas con un dron DJI Mini 3 Pro. El objetivo es facilitar la georreferenciación de imágenes en QGIS mediante un proceso reproducible y preciso.
 ________________________________________
 ## 2. Requisitos previos
-### 1.Hardware
+### 1. Hardware
 
 •	Dron DJI Mini 3 Pro (o similar con GPS integrado).
 
 •	Computadora con Python 3.9+ instalado.
 
-### 2.Software
+### 2. Software
 
 •	Python 3.9 o superior
 
@@ -59,10 +59,10 @@ Colocar todos los archivos .DNG y el script georefraw.py en una misma carpeta:
  └── ...
 ________________________________________
 ## 5. Ejecución del script
-1.	Abrir una terminal en la carpeta del proyecto.
-2.	Ejecutar:
+### 1.	Abrir una terminal en la carpeta del proyecto.
+### 2.	Ejecutar:
 python georefraw.py
-3.	El script realizará automáticamente:
+### 3.	El script realizará automáticamente:
 
 o	Conversión de .DNG → .JPG (máxima calidad).
 
