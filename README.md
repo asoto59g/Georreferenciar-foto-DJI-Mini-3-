@@ -7,13 +7,13 @@ Archivos de ejemplo en la siguiente carpeta [Carpeta ejemplo](https://drive.goog
 Este proyecto automatiza la generación de archivos de puntos de control (.points) y un resumen de cálculos (resumen_calculos.csv) a partir de fotografías tomadas con un dron DJI Mini 3 Pro. El objetivo es facilitar la georreferenciación de imágenes en QGIS mediante un proceso reproducible y preciso.
 ________________________________________
 ## 2. Requisitos previos
-Hardware
+### 1.Hardware
 
 •	Dron DJI Mini 3 Pro (o similar con GPS integrado).
 
 •	Computadora con Python 3.9+ instalado.
 
-Software
+### 2.Software
 
 •	Python 3.9 o superior
 
@@ -25,7 +25,7 @@ Software
 pip install rawpy pillow exifread pyproj numpy
 ________________________________________
 ## 3. Captura de imágenes con el dron
-1.	Configuración del vuelo:
+### 1.	Configuración del vuelo:
 
 o	Activar el registro de coordenadas GPS en la cámara.
 
@@ -36,14 +36,14 @@ o	Configurar la resolución máxima (8064×6048 px). Formato DNG 48MP
 
 o	Desactivar filtros automáticos de exposición o HDR.
 
-2.	Secuencia de captura:
+### 2.	Secuencia de captura:
 
 o	Tomar una primera foto en el punto de referencia (suelo). Esta imagen debe tener en su nombre el sufijo 001 (por ejemplo, DJI_001.DNG).
 
 o	Continuar tomando las demás fotos a diferentes alturas o posiciones. Orientar dron al NORTE con pantallas de navegacion.
 Esto con el fin que la foto quede orientada en georreferenciacion, en formato RAW el disparo de la camara es tardado, tener paciencia.
 
-3.	Formato de archivo:
+### 3.	Formato de archivo:
 
 o	Guardar las imágenes en formato RAW (.DNG) para conservar metadatos completos.
 ![Captura de pantalla](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/a3d0347772fd488974b06191f69bbea946477c28/carpetaejemplo.jpg)
