@@ -134,5 +134,6 @@ ________________________________________
 ## 10. Créditos y mantenimiento
 Desarrollado por el equipo de ingeniería de Basdonax AI, especializado en soluciones de georreferenciación y sistemas RAG estructurados.
 Autor técnico: Alejandro Soto Barquero Versión: 1.0 — Noviembre 2025
+![Captura de pantalla](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/7237d9762a361f088f93db0684754c2e755e4fff/qgis.jpg)
 
 
