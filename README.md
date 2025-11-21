@@ -102,10 +102,15 @@ o	Resampling: Bilineal o Cúbico.
 ![Captura de pantalla](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/ce13a4700370aacde91091de0f278e40b2776f36/georeferenciador.jpg)
 ________________________________________
 ## 8. Validación de resultados
+
 •	Revisar el archivo resumen_calculos.csv para verificar:
+
 o	Alturas relativas correctas.
+
 o	Dimensiones del terreno (ancho_m, alto_m).
+
 o	Coordenadas proyectadas (x_crtm05, y_crtm05).
+
 •	En QGIS, comprobar que las imágenes se alineen correctamente con la base cartográfica.
 ________________________________________
 ## 9. Solución de problemas
