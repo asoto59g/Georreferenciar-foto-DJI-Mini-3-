@@ -10,7 +10,8 @@ ________________________________________
 ## 2. Requisitos previos
 ### 1. Hardware
 
-•	Dron DJI Mini 3 Pro (o similar con GPS integrado). <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/86fa0dff-ee83-408c-8ea2-73151d72126d" />
+•	Dron DJI Mini 3 Pro (o similar con GPS integrado). <img width="512" height="512" alt="drone-icon" src="https://github.com/user-attachments/assets/476a13b0-10f1-443b-aa46-54257fb0e0a0" />
+
 
 
 •	Computadora con Python 3.9+ instalado. :computer:
