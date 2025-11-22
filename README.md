@@ -10,7 +10,7 @@ ________________________________________
 ## 2. Requisitos previos
 ### 1. Hardware
 
-•	Dron DJI Mini 3 Pro (o similar con GPS integrado).
+•	Dron DJI Mini 3 Pro (o similar con GPS integrado). <div style="height: 0; padding-bottom: calc(100.00%); position:relative; width: 100%;"><iframe allow="autoplay; gyroscope;" allowfullscreen height="100%" referrerpolicy="strict-origin" src="https://www.kapwing.com/e/6921d5e9b41aa2f84a623f09" style="border:0; height:100%; left:0; overflow:hidden; position:absolute; top:0; width:100%" title="Embedded content made on Kapwing" width="100%"></iframe></div><p style="font-size: 12px; text-align: right;">Image edited on <a href="https://www.kapwing.com/video-editor">Kapwing</a></p>
 
 •	Computadora con Python 3.9+ instalado. :computer:
 
