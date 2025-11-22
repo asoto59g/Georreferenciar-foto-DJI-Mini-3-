@@ -9,7 +9,7 @@ ________________________________________
 ## 2. Requisitos previos
 ### 1. Hardware
 
-•	Dron DJI Mini 3 Pro (o similar con GPS integrado).[[<img width="20" height="20" alt="drone-icon" src="https://github.com/user-attachments/assets/476a13b0-10f1-443b-aa46-54257fb0e0a0" />](https://www.dji.com/global)]
+•	Dron DJI Mini 3 Pro (o similar con GPS integrado).<img width="20" height="20" alt="drone-icon" src="https://github.com/user-attachments/assets/476a13b0-10f1-443b-aa46-54257fb0e0a0" />(https://www.dji.com/global)
 
 
 
