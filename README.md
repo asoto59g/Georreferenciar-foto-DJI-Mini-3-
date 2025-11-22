@@ -42,7 +42,7 @@ ________________________________________
 •	Tomar una primera foto en el punto de referencia (suelo). Esta imagen debe tener en su nombre el sufijo 001 (por ejemplo, DJI_001.DNG).
 
 •	Continuar tomando las demás fotos a diferentes alturas o posiciones. Orientar dron al NORTE con pantallas de navegacion.
-Esto con el fin que la foto quede orientada en georreferenciacion, en formato RAW el disparo de la camara es tardado, tener paciencia.
+Esto con el fin que la foto quede orientada en georreferenciacion, en formato RAW el disparo de la camara es tardado, tener paciencia.:stopwatch:
 
 ### 3.	Formato de archivo:
 
