@@ -10,7 +10,7 @@ ________________________________________
 ## 2. Requisitos previos
 ### 1. Hardware
 
-•	Dron DJI Mini 3 Pro (o similar con GPS integrado). :drone:
+•	Dron DJI Mini 3 Pro (o similar con GPS integrado).
 
 •	Computadora con Python 3.9+ instalado. :computer:
 
