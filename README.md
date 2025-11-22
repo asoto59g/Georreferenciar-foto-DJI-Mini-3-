@@ -18,7 +18,8 @@ ________________________________________
 
 ### 2. Software
 
-•	Python 3.9 o superior
+•	Python 3.9 o superior. <img width="20" height="20" alt="Python-logo-notext svg" src="https://github.com/user-attachments/assets/8e07cc75-0360-475c-9416-54fbdaef812a" />
+
 
 •	QGIS 3.22+
 
