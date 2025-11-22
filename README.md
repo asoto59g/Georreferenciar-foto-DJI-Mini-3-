@@ -21,7 +21,9 @@ ________________________________________
 •	Python 3.9 o superior. <img width="20" height="20" alt="Python-logo-notext svg" src="https://github.com/user-attachments/assets/8e07cc75-0360-475c-9416-54fbdaef812a" />
 
 
-•	QGIS 3.22+. ![qgis322](https://github.com/user-attachments/assets/5b00d54b-1a4b-421a-8ea2-41238ea6e2fa)
+•	QGIS 3.22+. <img width="20" height="20" alt="QGIS_logo_new svg" src="https://github.com/user-attachments/assets/ada37092-202a-4d03-82f5-d40bb2e19037" />
+
+
 
 
 •	ExifTool (para copiar metadatos GPS) [Pagina instalacion](https://exiftool.org/install.html)
