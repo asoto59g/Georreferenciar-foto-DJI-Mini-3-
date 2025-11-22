@@ -12,7 +12,7 @@ ________________________________________
 
 •	Dron DJI Mini 3 Pro (o similar con GPS integrado).
 
-•	Computadora con Python 3.9+ instalado.
+•	Computadora con Python 3.9+ instalado. :computer:
 
 ### 2. Software
 
@@ -99,7 +99,7 @@ ________________________________________
 •	Elegir el archivo .points generado por el script.
 ### 5.	Verificar que los puntos se carguen correctamente.
 ### 6.	Configurar el sistema de referencia:
-•	CRTM05 (EPSG:8908) para Costa Rica.
+•	CRTM05 (EPSG:8908) para Costa Rica. :costa_rica:
 ### 7.	Ejecutar la georreferenciación:
 •	Método de transformación: Polinomial 1 o Helmert.
 •	Resampling: Bilineal o Cúbico.
