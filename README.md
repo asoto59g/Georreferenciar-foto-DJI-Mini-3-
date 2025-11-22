@@ -9,7 +9,9 @@ ________________________________________
 ## 2. Requisitos previos
 ### 1. Hardware
 
-•	Dron DJI Mini 3 Pro (o similar con GPS integrado). [<img width="20" height="20" src="https://raw.githubusercontent.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/b344385361357150692c1e50d95ac187eb3aaf4c/drone-icon.png" />](https://www.dji.com/global/mini-3)
+•	Dron DJI Mini 3 Pro (o similar con GPS integrado). <a href="https://www.dji.com/global/mini-3" target="_blank" rel="noopener noreferrer">
+  <img width="20" height="20" src="https://raw.githubusercontent.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/b344385361357150692c1e50d95ac187eb3aaf4c/drone-icon.png" />
+</a>
 
 •	Computadora con Python 3.9+ instalado. :computer:
 
