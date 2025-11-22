@@ -38,7 +38,8 @@ ________________________________________
 •	Mantener la cámara en modo nadiral (vertical).
 
 
-•	Configurar la resolución máxima (8064×6048 px). Formato DNG 48MP <img width="800" height="360" alt="Screenshot_20251122-102212_DJI Fly" src="https://github.com/user-attachments/assets/cafdd9fa-6b5b-493f-964b-ef05d2861f54" />
+•	Configurar la resolución máxima (8064×6048 px). Formato DNG 48MP<img width="800" height="360" alt="Screenshot_20251122-102110_DJI Fly" src="https://github.com/user-attachments/assets/d5653f58-4544-43a5-b3f6-6aa35c1ee415" />
+ <img width="800" height="360" alt="Screenshot_20251122-102212_DJI Fly" src="https://github.com/user-attachments/assets/cafdd9fa-6b5b-493f-964b-ef05d2861f54" />
 
 
 •	Desactivar filtros automáticos de exposición o HDR.
