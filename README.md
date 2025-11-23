@@ -134,13 +134,13 @@ ________________________________________
 ## 9. Solución de problemas
 Problema	Causa	Solución
 
-###• PermissionError:
+### • PermissionError:
   resumen_calculos.csv	Archivo abierto en Excel	Cerrar el archivo o dejar que el script cree una nueva versión (resumen_calculos_1.csv).
 
-###• KeyError:
+### • KeyError:
 'GPS GPSLatitude'	Falta de metadatos GPS	Asegurarse de que el dron tenga GPS activo y que exiftool copie los metadatos.
 
-###• Imágenes desplazadas
+### • Imágenes desplazadas
 en QGIS	Altura de referencia incorrecta	Verificar que la foto 001 sea la tomada en el suelo.
 ________________________________________
 ## 10. Créditos y mantenimiento
