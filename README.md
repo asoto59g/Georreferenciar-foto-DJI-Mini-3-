@@ -4,7 +4,7 @@ Georreferenciación de fotos de DJI Mini 3 con metadatos gps de exif en Qgis. Es
 
 Archivos de ejemplo en la siguiente carpeta [Carpeta ejemplo](https://drive.google.com/drive/folders/1V3cBZyV1fmi-PAEcXbXMzmQ8Y6Ll3bVL?usp=drive_link)
 ## 1. Introducción
-Este proyecto automatiza la conversion de archivos DNG a JPG y la generación de archivos de puntos de control (.points) y un resumen de cálculos (resumen_calculos.csv) a partir de fotografías tomadas con un dron DJI Mini 3 Pro. El objetivo es facilitar la georreferenciación de imágenes en QGIS mediante un proceso reproducible y preciso.
+Este proyecto automatiza la conversion de archivos DNG a JPG, además la generación de archivos de puntos de control (.points) y un resumen de cálculos (resumen_calculos.csv) a partir de fotografías tomadas con un dron DJI Mini 3 Pro. El objetivo es facilitar la georreferenciación de imágenes en QGIS mediante un proceso reproducible y preciso.
 ________________________________________
 ## 2. Requisitos previos
 ### 1. Hardware
