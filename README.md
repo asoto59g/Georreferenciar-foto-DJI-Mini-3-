@@ -86,11 +86,13 @@ ________________________________________
 ## 6. Archivos generados
 Tipo	Descripción
 
-.jpg	Imagen convertida desde el archivo RAW.
+### *.jpg
+Imagenes convertidas desde el archivo RAW.
 
-.points	Archivo de puntos de control para QGIS.
+### *.points	Archivo de puntos de control para QGIS.
 
-resumen_calculos.csv	Tabla con coordenadas, alturas y dimensiones calculadas.
+### resumen_calculos.csv
+Tabla con coordenadas, alturas y dimensiones calculadas.
 
 Ejemplo de resumen_calculos.csv:
 
@@ -131,15 +133,18 @@ ________________________________________
 ## 9. Solución de problemas
 Problema	Causa	Solución
 
-• PermissionError: resumen_calculos.csv	Archivo abierto en Excel	Cerrar el archivo o dejar que el script cree una nueva versión (resumen_calculos_1.csv).
+###• PermissionError:
+  resumen_calculos.csv	Archivo abierto en Excel	Cerrar el archivo o dejar que el script cree una nueva versión (resumen_calculos_1.csv).
 
-• KeyError: 'GPS GPSLatitude'	Falta de metadatos GPS	Asegurarse de que el dron tenga GPS activo y que exiftool copie los metadatos.
+###• KeyError:
+'GPS GPSLatitude'	Falta de metadatos GPS	Asegurarse de que el dron tenga GPS activo y que exiftool copie los metadatos.
 
-• Imágenes desplazadas en QGIS	Altura de referencia incorrecta	Verificar que la foto 001 sea la tomada en el suelo.
+###• Imágenes desplazadas
+en QGIS	Altura de referencia incorrecta	Verificar que la foto 001 sea la tomada en el suelo.
 ________________________________________
 ## 10. Créditos y mantenimiento
 
-• Desarrollado por el equipo de ingeniería de Basdonax AI, especializado en soluciones de georreferenciación y sistemas RAG estructurados. :dollar: $ 0.49 en tokens con modelo <img width="35" height="13" alt="chatgpt-5-logo-3000-20001" src="https://github.com/user-attachments/assets/90a49351-1ec5-4e2d-bfce-d09fcc52c65f" />
+• Desarrollado por el equipo de ingeniería de Basdonax AI, especializado en soluciones de georreferenciación y sistemas RAG estructurados. :dollar: $ 0.49 en tokens con modelo <img width="42" height="16" alt="chatgpt-5-logo-3000-20001" src="https://github.com/user-attachments/assets/90a49351-1ec5-4e2d-bfce-d09fcc52c65f" />
 
 
 • Autor técnico: Alejandro Soto Barquero Versión: 1.0 — Noviembre 2025.
