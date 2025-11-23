@@ -139,7 +139,8 @@ Problema	Causa	Solución
 ________________________________________
 ## 10. Créditos y mantenimiento
 
-• Desarrollado por el equipo de ingeniería de Basdonax AI, especializado en soluciones de georreferenciación y sistemas RAG estructurados. :dollar: $ 0.49 en tokens con modelo <img width="35" height="24" alt="chatgpt-5-logo-3000-20001" src="https://github.com/user-attachments/assets/79053f8d-61c7-421a-89a9-8c33651d7ea1" />
+• Desarrollado por el equipo de ingeniería de Basdonax AI, especializado en soluciones de georreferenciación y sistemas RAG estructurados. :dollar: $ 0.49 en tokens con modelo <img width="30" height="11" alt="chatgpt-5-logo-3000-20001" src="https://github.com/user-attachments/assets/90a49351-1ec5-4e2d-bfce-d09fcc52c65f" />
+
 
 • Autor técnico: Alejandro Soto Barquero Versión: 1.0 — Noviembre 2025.
 
