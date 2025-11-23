@@ -86,12 +86,13 @@ ________________________________________
 ## 6. Archivos generados
 Tipo	Descripción
 
-### *.jpg
+### 1. *.jpg
 Imagenes convertidas desde el archivo RAW.
 
-### *.points	Archivo de puntos de control para QGIS.
+### 2. *.points	
+Archivos de puntos de control para QGIS.
 
-### resumen_calculos.csv
+### 3. resumen_calculos.csv
 Tabla con coordenadas, alturas y dimensiones calculadas.
 
 Ejemplo de resumen_calculos.csv:
