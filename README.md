@@ -150,6 +150,6 @@ ________________________________________
 
 • Autor técnico: Alejandro Soto Barquero Versión: 1.0 — Noviembre 2025.
 
-![Captura de pantalla](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/7237d9762a361f088f93db0684754c2e755e4fff/qgis.jpg)
+[![Captura de pantalla](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/7237d9762a361f088f93db0684754c2e755e4fff/qgis.jpg)](https://vimeo.com/1139745299?fl=ip&fe=ec "DAR clic para ver Video")
 
 
