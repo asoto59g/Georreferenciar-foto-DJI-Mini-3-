@@ -139,7 +139,7 @@ Problema	Causa	Solución
 ________________________________________
 ## 10. Créditos y mantenimiento
 
-• Desarrollado por el equipo de ingeniería de Basdonax AI, especializado en soluciones de georreferenciación y sistemas RAG estructurados. :dollar: $ 0.49 en tokens
+• Desarrollado por el equipo de ingeniería de Basdonax AI, especializado en soluciones de georreferenciación y sistemas RAG estructurados. :dollar: $ 0.49 en tokens con modelo gpt5-chat-latest
 
 • Autor técnico: Alejandro Soto Barquero Versión: 1.0 — Noviembre 2025.
 
