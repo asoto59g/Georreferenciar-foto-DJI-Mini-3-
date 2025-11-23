@@ -95,6 +95,7 @@ resumen_calculos.csv	Tabla con coordenadas, alturas y dimensiones calculadas.
 Ejemplo de resumen_calculos.csv:
 
 <img width="612" height="302" alt="image" src="https://github.com/user-attachments/assets/ebb03a30-aaad-4253-b6b2-ebc643c54118" />
+
 ________________________________________
 ## 7. Carga en QGIS
 ### 1.	Abrir QGIS.
