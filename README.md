@@ -23,7 +23,8 @@ ________________________________________
 
 
 
-•	ExifTool (para copiar metadatos GPS) [Pagina instalacion](https://exiftool.org/install.html)
+•	ExifTool (para copiar metadatos GPS) <img width="30" height="30" alt="exiftool" src="https://github.com/user-attachments/assets/1b123e49-0efe-4a35-acb5-2d9d040e2007" /> 
+[Pagina instalacion](https://exiftool.org/install.html)
 
 •	Librerías de Python:
 pip install rawpy pillow exifread pyproj numpy
