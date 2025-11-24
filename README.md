@@ -160,8 +160,8 @@ ________________________________________
 
 • Desarrollado por el equipo de ingeniería de Basdonax AI, especializado en soluciones de georreferenciación y sistemas RAG estructurados. :dollar: $ 0.49 en tokens con modelo <img width="42" height="16" alt="chatgpt-5-logo-3000-20001" src="https://github.com/user-attachments/assets/90a49351-1ec5-4e2d-bfce-d09fcc52c65f" />
 
-• Desarrollo completado con Antigravity <img width="30" height="17" alt="image" src="https://github.com/user-attachments/assets/49bbaf4b-0411-49dc-9967-c93341d629dc" />
- modelo Gemini 3.0 ![gemini](https://github.com/user-attachments/assets/d2838415-b80b-4187-9a8b-797c63089e0e)
+• Desarrollo completado con Antigravity <img width="60" height="36" alt="image" src="https://github.com/user-attachments/assets/49bbaf4b-0411-49dc-9967-c93341d629dc" />
+ modelo Gemini 3.0 <img width="60" height="36" alt="image" src=(https://github.com/user-attachments/assets/c0abfbc8-cdd9-4cea-877c-a8ea3205a145)/>
 
 
 
