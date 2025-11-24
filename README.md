@@ -4,7 +4,7 @@ Georreferenciación de fotos de DJI Mini 3 con metadatos gps de exif en Qgis. Es
 
 Archivos de ejemplo en la siguiente carpeta [Carpeta ejemplo](https://drive.google.com/drive/folders/1V3cBZyV1fmi-PAEcXbXMzmQ8Y6Ll3bVL?usp=drive_link)
 ## 1. Introducción
-Este proyecto automatiza la conversion de archivos DNG a JPG, además la generación de archivos de puntos de control (.points) y un resumen de cálculos (resumen_calculos.csv) a partir de fotografías tomadas con un dron DJI Mini 3 Pro. El objetivo es facilitar la georreferenciación de imágenes en QGIS mediante un proceso reproducible y preciso.
+Este proyecto automatiza la conversion de archivos DNG a JPG, además la generación de archivos de puntos de control (.points), un resumen de cálculos (resumen_calculos.csv), archivos TIFF georreferenciados y calculos de indices GLI y VARI; a partir de fotografías tomadas con un dron DJI Mini 3 Pro. El objetivo es facilitar la georreferenciación de imágenes para utilizar en cualquier GIS mediante un proceso reproducible y preciso.
 ________________________________________
 ## 2. Requisitos previos
 ### 1. Hardware
@@ -28,6 +28,8 @@ ________________________________________
 
 •	Librerías de Python:
 pip install rawpy pillow exifread pyproj numpy
+
+• Instalado adicional dependencias para automatización : rasterio , attrs , clic , complementos de clic , cligj
 ________________________________________
 ## 3. Captura de imágenes con el dron
 ### 1.	Configuración del vuelo:
@@ -53,13 +55,14 @@ Esto con el fin que la foto quede orientada en georreferenciacion, en formato RA
 ### 3.	Formato de archivo:
 
 •	Guardar las imágenes en formato RAW (.DNG) para conservar metadatos completos.
-![Captura de pantalla](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/a3d0347772fd488974b06191f69bbea946477c28/carpetaejemplo.jpg)
+<img width="1365" height="725" alt="image" src="https://github.com/user-attachments/assets/cbf98386-dda7-421b-b153-6483670a9604" />
+
 ________________________________________
 ## 4. Estructura de archivos
-Colocar todos los archivos .DNG y el script georefraw.py en una misma carpeta:
+Colocar todos los archivos .DNG y el script fullgeoref.py en una misma carpeta:
 
-📂 Proyecto_Georreferenciacion
- ├── georefraw.py
+📂 Carpeta ejemplo
+ ├── fullgeoref.py
  ├── DJI_001.DNG
  ├── DJI_002.DNG
  ├── DJI_003.DNG
@@ -68,7 +71,7 @@ ________________________________________
 ## 5. Ejecución del script
 ### 1.	Abrir una terminal en la carpeta del proyecto.
 ### 2.	Ejecutar:
-python georefraw.py
+python fullgeoref.py
 ### 3.	El script realizará automáticamente:
 
 •	Conversión de .DNG → .JPG (máxima calidad).
@@ -81,6 +84,11 @@ python georefraw.py
 
 •	Creación del archivo resumen_calculos.csv con todos los datos.
 ![Captura de pantalla](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/8b89e2bcf076a030578b21a05d682183da7b2681/dos.jpg)
+
+• Calculado GLI y VARI índices para cada imagen .
+
+• Guardado el resultados como GeoTIFF .
+
 
 ________________________________________
 ## 6. Archivos generados
@@ -98,6 +106,11 @@ Tabla con coordenadas, alturas y dimensiones calculadas.
 Ejemplo de resumen_calculos.csv:
 
 <img width="700" height="302" alt="image" src="https://github.com/user-attachments/assets/512e5aa4-4f61-44af-ac57-d5b5629dbc68" />
+
+### 4. Archivos generados :
+DJI_0001_georef.tif a DJI_0014_georef.tif.
+DJI_0001_georef_GLI.tif a DJI_0014_georef_GLI.tif.
+DJI_0001_georef_VARI.tif a DJI_0014_georef_VARI.tif.
 
 ________________________________________
 ## 7. Carga en QGIS
@@ -146,6 +159,10 @@ ________________________________________
 ## 10. Créditos y mantenimiento
 
 • Desarrollado por el equipo de ingeniería de Basdonax AI, especializado en soluciones de georreferenciación y sistemas RAG estructurados. :dollar: $ 0.49 en tokens con modelo <img width="42" height="16" alt="chatgpt-5-logo-3000-20001" src="https://github.com/user-attachments/assets/90a49351-1ec5-4e2d-bfce-d09fcc52c65f" />
+
+• Desarrollo completado con Antigravity <img width="30" height="17" alt="image" src="https://github.com/user-attachments/assets/49bbaf4b-0411-49dc-9967-c93341d629dc" />
+ modelo Gemini 3.0 ![gemini](https://github.com/user-attachments/assets/d2838415-b80b-4187-9a8b-797c63089e0e)
+
 
 
 • Autor técnico: Alejandro Soto Barquero Versión: 1.0 — Noviembre 2025.
