@@ -2,7 +2,7 @@
 # :world_map: Georreferenciar foto DJI Mini 3 a 48 MP
 Georreferenciación de fotos de DJI Mini 3 con metadatos gps de exif. Es necesario solo las coordenadas del centroide de la foto para generar la georreferenciacion aproximada con un script de Python
 
-Archivos de ejemplo en la siguiente carpeta [Carpeta ejemplo](https://drive.google.com/drive/folders/1V3cBZyV1fmi-PAEcXbXMzmQ8Y6Ll3bVL?usp=drive_link)
+Archivos de ejemplo en la siguiente carpeta [Carpeta ejemplo](https://drive.google.com/drive/folders/1V3cBZyV1fmi-PAEcXbXMzmQ8Y6Ll3bVL?usp=drive_link) Se incluye script python fullgeoref.py
 ## 1. Introducción
 Este proyecto automatiza la conversion de archivos DNG a JPG, además la generación de archivos de puntos de control (.points), un resumen de cálculos (resumen_calculos.csv), archivos TIFF georreferenciados y calculos de indices GLI y VARI; a partir de fotografías tomadas con un dron DJI Mini 3 Pro. El objetivo es facilitar la georreferenciación de imágenes para utilizar en cualquier GIS mediante un proceso reproducible y preciso.
 ________________________________________
