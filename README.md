@@ -108,28 +108,29 @@ Ejemplo de resumen_calculos.csv:
 <img width="700" height="302" alt="image" src="https://github.com/user-attachments/assets/512e5aa4-4f61-44af-ac57-d5b5629dbc68" />
 
 ### 4. Archivos generados :
+
 DJI_0001_georef.tif a DJI_0014_georef.tif.
+
 DJI_0001_georef_GLI.tif a DJI_0014_georef_GLI.tif.
+
 DJI_0001_georef_VARI.tif a DJI_0014_georef_VARI.tif.
 
 ________________________________________
-## 7. Carga en QGIS
-### 1.	Abrir QGIS.
-### 2.	Ir a Raster → Georreferenciador.
-### 3.	Cargar la imagen .jpg correspondiente.
-### 4.	En el menú del georreferenciador, seleccionar:
-•	Archivo → Cargar puntos de control desde archivo...
-•	Elegir el archivo .points generado por el script.
-### 5.	Verificar que los puntos se carguen correctamente.
-### 6.	Configurar el sistema de referencia:
-•	CRTM05 (EPSG:8908) para Costa Rica. :costa_rica:
-### 7.	Ejecutar la georreferenciación:
-•	Método de transformación: Polinomial 1 o Helmert.
-•	Resampling: Bilineal o Cúbico.
-### 8.	Guardar el raster georreferenciado.
-![Captura de pantalla](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/5723a0837717304a04bd9ef63a9139bd404ad1a2/gcp.jpg)
+## 7. Como utilizar
 
-![Captura de pantalla](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/ce13a4700370aacde91091de0f278e40b2776f36/georeferenciador.jpg)
+
+### 1.	Asegurar que todos los archivos con extension DNG se encuentran en la carpeta correspondientes
+
+### 2.	Copie en la misma carpeta el archivo "fullgeoref.py"  y ejecutar con comando python fullgeoref.py en consola de comandos para ejecutar flujo completo de trabajo.
+• Convertir DNG -> JPG
+• Copiar metadatos con Exiftool
+• Generar GCP
+• Georreferenciación -> _ georef.tif
+• Calcular Índices -> _ GLI.tif , _ VARI.tif
+
+### 3	Abrir los archivos TIFF generados con sotfware QGIS o GIS de preferrencia, para verificar alineación y visualización índices.
+<img width="1353" height="707" alt="image" src="https://github.com/user-attachments/assets/19a0475e-3410-435b-9283-26d4d1910576" />
+
 ________________________________________
 ## 8. Validación de resultados
 
@@ -142,7 +143,7 @@ ________________________________________
 #### -	Coordenadas proyectadas (x_crtm05, y_crtm05).
 ![Captura de pantalla](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/bfd3d37ede065de1876cabbd650bbb76a66d754a/ejecutado.jpg)
 
-### •	En QGIS, comprobar que las imágenes se alineen correctamente con la base cartográfica.
+### •	En QGIS o GIS de preferencia, comprobar que las imágenes se alineen correctamente con la base cartográfica.
 ________________________________________
 ## 9. Solución de problemas
 Problema	Causa	Solución
