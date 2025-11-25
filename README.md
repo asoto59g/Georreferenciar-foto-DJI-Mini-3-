@@ -122,11 +122,12 @@ ________________________________________
 ### 1.	Asegurar que todos los archivos con extension DNG se encuentran en la carpeta correspondientes
 
 ### 2.	Copie en la misma carpeta el archivo "fullgeoref.py"  y ejecutar con comando python fullgeoref.py en consola de comandos para ejecutar flujo completo de trabajo.
-• Convertir DNG -> JPG
-• Copiar metadatos con Exiftool
-• Generar GCP
-• Georreferenciación -> _ georef.tif
-• Calcular Índices -> _ GLI.tif , _ VARI.tif
+
+#### • Convertir DNG -> JPG
+#### • Copiar metadatos con Exiftool
+#### • Generar GCP
+#### • Georreferenciación -> _ georef.tif
+#### • Calcular Índices -> _ GLI.tif , _ VARI.tif
 
 ### 3	Abrir los archivos TIFF generados con sotfware QGIS o GIS de preferrencia, para verificar alineación y visualización índices.
 <img width="1353" height="707" alt="image" src="https://github.com/user-attachments/assets/19a0475e-3410-435b-9283-26d4d1910576" />
