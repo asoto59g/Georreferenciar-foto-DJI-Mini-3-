@@ -141,7 +141,7 @@ ________________________________________
 
 #### -	Dimensiones del terreno (ancho_m, alto_m).
 
-#### -	Coordenadas proyectadas (x_crtm05, y_crtm05).
+#### -	Coordenadas proyectadas (x_crtm05, y_crtm05). EPSG:8908 :CR:
 ![Captura de pantalla](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/bfd3d37ede065de1876cabbd650bbb76a66d754a/ejecutado.jpg)
 
 ### •	En QGIS o GIS de preferencia, comprobar que las imágenes se alineen correctamente con la base cartográfica.
@@ -166,7 +166,7 @@ ________________________________________
 
 
 
-• Autor técnico: Alejandro Soto Barquero Versión: 1.0 — Noviembre 2025.
+• Autor técnico: Alejandro Soto Barquero Versión: 2.0 — Noviembre 2025.
 
 [![Captura de pantalla](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/7237d9762a361f088f93db0684754c2e755e4fff/qgis.jpg)](https://vimeo.com/1139745299?fl=ip&fe=ec "DAR clic para ver Video")
 
