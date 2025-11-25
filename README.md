@@ -142,7 +142,6 @@ ________________________________________
 #### -	Dimensiones del terreno (ancho_m, alto_m).
 
 #### -	Coordenadas proyectadas (x_crtm05, y_crtm05). EPSG:8908 :costa_rica:
-![Captura de pantalla](https://github.com/asoto59g/Georreferenciar-foto-DJI-Mini-3-/blob/bfd3d37ede065de1876cabbd650bbb76a66d754a/ejecutado.jpg)
 
 ### •	En QGIS o GIS de preferencia, comprobar que las imágenes se alineen correctamente con la base cartográfica.
 ________________________________________
