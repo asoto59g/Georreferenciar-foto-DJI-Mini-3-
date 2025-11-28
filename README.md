@@ -47,10 +47,10 @@ ________________________________________
 
 ### 2.	Secuencia de captura:
 
-•	Tomar una primera foto en el punto de referencia (suelo). Esta imagen debe tener en su nombre el sufijo 001 (por ejemplo, DJI_001.DNG).
+•	Tomar una primera foto en el punto de referencia (suelo). Esta imagen debe tener en su nombre el sufijo 001 (por ejemplo, DJI_001.DNG). Esperar que el dron tenga la mayor cantidad de satélites gps a disposición, no apresurar el despegue de la nave. La precisión vertical con buena señal es +- 0.1 m en mini 3.
 
-•	Continuar tomando las demás fotos a diferentes alturas o posiciones. Orientar dron al NORTE con pantallas de navegacion.
-Esto con el fin que la foto quede orientada en georreferenciacion, en formato RAW el disparo de la camara es tardado :stopwatch: , tener paciencia.
+•	Continuar tomando las demás fotos a diferentes alturas o posiciones. Orientar dron al NORTE con pantallas de navegación.
+Esto con el fin que la foto quede orientada en georreferenciación, en formato RAW el disparo de la cámara es tardado :stopwatch: , tener paciencia. Si la diferencia de altura es muy grande desde el punto de referencia (suelo) y puntos donde se toman el resto de fotos disminuye la precisión de georeferenciación, debe ser menos de 2 metros para obtener resultados aceptables. Por lo tanto en terreno quebrado es poco recomendable aplicar script.
 
 ### 3.	Formato de archivo:
 
