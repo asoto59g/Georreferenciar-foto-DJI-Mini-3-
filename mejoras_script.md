@@ -1,4 +1,4 @@
-# Script Mejorado de Georreferenciación con Corrección de Actitud
+# Script Mejorado de Georreferenciación con Corrección de Actitud 02/12/2025
 
 ## 📋 Resumen de Mejoras
 
