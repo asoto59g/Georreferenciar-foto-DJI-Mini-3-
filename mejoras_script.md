@@ -2,7 +2,7 @@
 
 ## 📋 Resumen de Mejoras
 
-El nuevo script `fullgeorect.py` incluye mejoras significativas para aumentar la precisión de la georreferenciación de fotos aéreas del DJI Mini 3 Pro.
+El nuevo script `fullgeoref.py` incluye mejoras significativas para aumentar la precisión de la georreferenciación de fotos aéreas del DJI Mini 3 Pro.
 
 ## 🎯 Principales Mejoras Implementadas
 
@@ -94,7 +94,7 @@ Los mismos que el script original:
 
 ```bash
 cd "ruta/a/carpeta/con/archivos/DNG"
-python full_georeference_enhanced.py
+python fullgeoref.py
 ```
 
 ### Salida
