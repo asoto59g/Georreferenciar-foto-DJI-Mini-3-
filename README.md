@@ -77,9 +77,10 @@ python fullgeoref.py
 •	Conversión de .DNG → .JPG (máxima calidad).
 
 •	Copia de metadatos GPS con exiftool.
+
 La función `get_exif_data()` ahora retorna 6 valores en lugar de 3:
 
-```python
+python
 # Antes:
 lat, lon, alt = get_exif_data(image)
 
