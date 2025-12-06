@@ -81,10 +81,10 @@ python fullgeoref.py
 La función `get_exif_data()` ahora retorna 6 valores en lugar de 3:
 
 python
-# Antes:
+#### Antes:
 lat, lon, alt = get_exif_data(image)
 
-# Ahora:
+#### Ahora:
 lat, lon, alt, pitch, roll, yaw = get_exif_data(image)
 
 •	Cálculo de altura relativa (usando la foto 001 como referencia).
