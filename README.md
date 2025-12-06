@@ -107,6 +107,11 @@ Ejemplo de resumen_calculos.csv:
 
 <img width="700" height="302" alt="image" src="https://github.com/user-attachments/assets/512e5aa4-4f61-44af-ac57-d5b5629dbc68" />
 
+El archivo `resumen_calculos.csv` ahora incluye columnas adicionales:
+- `pitch_deg`: Ángulo de cabeceo
+- `roll_deg`: Ángulo de alabeo  
+- `yaw_deg`: Ángulo de guiñada
+
 ### 4. Archivos generados :
 
 DJI_0001_georef.tif a DJI_0014_georef.tif.
