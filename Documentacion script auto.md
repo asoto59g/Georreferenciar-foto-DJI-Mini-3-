@@ -1,5 +1,5 @@
 # Documentación del Script de Georreferenciación Automática
-**Archivo:** `full_georeference_auto_elevation.py`
+**Archivo:** `fullgeoref.py`
 
 Este documento detalla el funcionamiento, requisitos y estructura del script de georreferenciación automatizada para imágenes de drone (DJI Mini 3 Pro), incorporando corrección de elevación del terreno mediante API y corrección de actitud (Pitch, Roll, Yaw).
 
